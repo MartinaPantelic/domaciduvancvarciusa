@@ -44,7 +44,7 @@ body {
 /*HEADER NAVIGATION*/
 .header {
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   z-index: 3;
   top: 0;
   width: 100%;
@@ -240,7 +240,22 @@ p {
 
 /*----------
   ------------- flexslider ------------------------------------------------------------------ */
+.flexslider {
+  max-width: 780px;
+  margin: 0 auto 60px; }
 
 .flex-viewport {
-  max-height: 500px;
-}
+  max-height: 500px; }
+
+.flex-direction-nav a::before {
+  font-size: 30px;
+  color: #fff; }
+
+.flexslider .slides {
+  display: flex;
+  align-items: center; }
+  @media (min-width: 768px) {
+    .flexslider .slides {
+      display: block; } }
+
+/*# sourceMappingURL=style.css.map */
