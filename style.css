@@ -215,7 +215,9 @@ p {
   color: #fdbc67;
   margin-bottom: 20px; }
 
-.email {
+.contact-title {
+  color: #fdbc67;
+  text-transform: uppercase;
   padding-top: 20px; }
 
 .facebook img {
