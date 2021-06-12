@@ -238,4 +238,9 @@ p {
   width: 40px;
   color: #fff; }
 
-/*# sourceMappingURL=style.css.map */
+/*----------
+  ------------- flexslider ------------------------------------------------------------------ */
+
+.flex-viewport {
+  max-height: 500px;
+}
