@@ -81,7 +81,8 @@ body {
 
 /*MAIN CONTENT*/
 .hero-img {
-  min-height: 100vh;
+  margin-top: 56px;
+  min-height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
