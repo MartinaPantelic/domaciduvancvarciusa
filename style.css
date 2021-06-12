@@ -25,22 +25,6 @@ body {
 .continer {
   width: 870px; }
 
-/*bootstrap*/
-.btn-primary {
-  background-color: #fdbc67;
-  border: none;
-  font-weight: bold; }
-
-.btn-primary:hover {
-  background-color: #79c255; }
-
-.form-control.is-valid,
-.was-validated .form-control:valid {
-  background-position: right calc(0.375em + 0.5rem) center; }
-
-.was-validated .custom-control-input:valid ~ .custom-control-label {
-  color: inherit; }
-
 /*HEADER NAVIGATION*/
 .header {
   position: fixed;
@@ -228,7 +212,7 @@ p {
   text-decoration: none; }
 
 .footer small {
-  color: #fff;
+  color: #fdbc67;
   margin-bottom: 20px; }
 
 .email {
